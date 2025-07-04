@@ -1,0 +1,23 @@
+{
+    "name": "performance-benchmarks",
+    "version": "1.0.0",
+    "description": "Performance comparison benchmarks for database operations",
+    "scripts": {
+        "test": "jest",
+        "benchmark:mongo": "node mongodb-benchmarks.js",
+        "benchmark:cache": "node caching-benchmarks.js",
+        "benchmark:network": "node network-benchmarks.js",
+        "benchmark:memory": "node memory-benchmarks.js"
+    },
+    "dependencies": {
+        "mongodb": "^5.0.0",
+        "redis": "^4.0.0",
+        "benchmark": "^2.1.4",
+        "microtime": "^3.1.1",
+        "mongoose": "^7.0.0",
+        "autocannon": "^7.10.0"
+    },
+    "devDependencies": {
+        "jest": "^29.0.0"
+    }
+}
