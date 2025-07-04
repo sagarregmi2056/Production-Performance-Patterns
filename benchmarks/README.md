@@ -2,12 +2,7 @@
 
 This directory contains benchmarks that demonstrate the performance impact of various optimization techniques. The benchmarks cover database operations, caching strategies, network calls, and memory management.
 
-## Prerequisites
 
-- Node.js 14+
-- MongoDB 4.4+
-- Redis 6+
-- Docker (optional, for containerized tests)
 
 ## Installation
 
